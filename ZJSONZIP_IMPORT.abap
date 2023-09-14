@@ -478,7 +478,7 @@ CLASS zcl_abap2json_mini IMPLEMENTATION.
               answer          = lv_answer
             CHANGING
               ct_displaytable = lt_confirmtable.
-          IF lv_answer <> 'J'.
+          IF lv_answer <> '1'.
             RETURN.
           ENDIF.
         ENDIF.
